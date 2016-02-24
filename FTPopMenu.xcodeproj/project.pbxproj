@@ -13,6 +13,7 @@
 		385BF0DE1C45FAF600369891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385BF0DC1C45FAF600369891 /* Main.storyboard */; };
 		385BF0E01C45FAF600369891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385BF0DF1C45FAF600369891 /* Assets.xcassets */; };
 		385BF0E31C45FAF600369891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385BF0E11C45FAF600369891 /* LaunchScreen.storyboard */; };
+		385BF0EC1C461A2B00369891 /* FTPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 385BF0EB1C461A2B00369891 /* FTPopMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		385BF0DF1C45FAF600369891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		385BF0E21C45FAF600369891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		385BF0E41C45FAF600369891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385BF0EA1C461A2B00369891 /* FTPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPopMenu.h; sourceTree = "<group>"; };
+		385BF0EB1C461A2B00369891 /* FTPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPopMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				385BF0D71C45FAF600369891 /* AppDelegate.m */,
 				385BF0D91C45FAF600369891 /* ViewController.h */,
 				385BF0DA1C45FAF600369891 /* ViewController.m */,
+				385BF0EA1C461A2B00369891 /* FTPopMenu.h */,
+				385BF0EB1C461A2B00369891 /* FTPopMenu.m */,
 				385BF0DC1C45FAF600369891 /* Main.storyboard */,
 				385BF0DF1C45FAF600369891 /* Assets.xcassets */,
 				385BF0E11C45FAF600369891 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385BF0EC1C461A2B00369891 /* FTPopMenu.m in Sources */,
 				385BF0DB1C45FAF600369891 /* ViewController.m in Sources */,
 				385BF0D81C45FAF600369891 /* AppDelegate.m in Sources */,
 				385BF0D51C45FAF600369891 /* main.m in Sources */,
@@ -298,6 +304,7 @@
 				385BF0E91C45FAF600369891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
